@@ -1,0 +1,13 @@
+            connector.OpenConnection();
+
+            string checkAmountRecordingsQuery = "select count(*) from Workers";
+            SqlCommand checkAmountRecordCommand = new SqlCommand(checkAmountRecordingsQuery, connector.Connection);
+            int recordsAmount = (int)checkAmountRecordCommand.ExecuteScalar();
+            if (recordsAmount == 0)
+            {
+                string textFillQuery = $"insert into Workers values('Admin','{Hasher.GetHash("Admin")}','Admin'),('Mang','{Hasher.GetHash("123")}','Manager'),('Mast','{Hasher.GetHash("321")}','Master')";
+                SqlCommand fillCommand = new SqlCommand(textFillQuery, connector.Connection);
+                fillCommand.ExecuteNonQuery();
+
+            }
+            connector.CloseConnection();

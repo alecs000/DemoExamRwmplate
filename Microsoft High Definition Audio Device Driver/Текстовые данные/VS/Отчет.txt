@@ -1,0 +1,5 @@
+ var row = dataGridView1.CurrentRow;
+ string information = $"Заказ №{row.Cells[0].Value} был завершён мастером {row.Cells[5].Value}, он выполнялся с {row.Cells[6].Value} по {row.Cells[7].Value}, то есть он был сделан за {DateTime.Parse(row.Cells[7].Value.ToString())- DateTime.Parse(row.Cells[6].Value.ToString())}.\nЗатраты составили: {row.Cells[8].Value}";
+ string path = "Order" + row.Cells[0] + ".txt";
+ File.WriteAllText(path, information);
+ Process.Start("notepad.exe", path);

@@ -1,0 +1,4 @@
+UPDATE u
+SET u.Post = p.ID
+FROM [Users] u
+JOIN [Posts] p ON u.Post = p.PostName;

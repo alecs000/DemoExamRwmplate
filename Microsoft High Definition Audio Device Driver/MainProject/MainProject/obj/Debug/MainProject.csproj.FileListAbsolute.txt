@@ -1,0 +1,12 @@
+C:\Users\alecs\source\repos\MainProject\MainProject\bin\Debug\MainProject.exe.config
+C:\Users\alecs\source\repos\MainProject\MainProject\bin\Debug\MainProject.exe
+C:\Users\alecs\source\repos\MainProject\MainProject\bin\Debug\MainProject.pdb
+C:\Users\alecs\source\repos\MainProject\MainProject\obj\Debug\MainProject.csproj.AssemblyReference.cache
+C:\Users\alecs\source\repos\MainProject\MainProject\obj\Debug\MainProject.Form1.resources
+C:\Users\alecs\source\repos\MainProject\MainProject\obj\Debug\MainProject.Properties.Resources.resources
+C:\Users\alecs\source\repos\MainProject\MainProject\obj\Debug\MainProject.csproj.GenerateResource.cache
+C:\Users\alecs\source\repos\MainProject\MainProject\obj\Debug\MainProject.csproj.CoreCompileInputs.cache
+C:\Users\alecs\source\repos\MainProject\MainProject\obj\Debug\MainProject.exe
+C:\Users\alecs\source\repos\MainProject\MainProject\obj\Debug\MainProject.pdb
+C:\Users\alecs\source\repos\MainProject\MainProject\obj\Debug\MainProject.OrdersForm.resources
+C:\Users\alecs\source\repos\MainProject\MainProject\obj\Debug\MainProject.ServicesForm.resources
